@@ -1,0 +1,8 @@
+MODULE      = ftd2xx.dll
+UNIXLIB     = ftd2xx.so
+UNIX_LIBS   = -L$(srcdir) -lftd2xx -lusb-1.0 -lpthread -lrt -ldl
+UNIX_CFLAGS = -DWINE_UNIX_LIB
+
+SOURCES = \
+	ftd2xx.c \
+	unixlib.c

@@ -22152,6 +22152,7 @@ wine_fn_config_makefile dlls/fltlib enable_fltlib
 wine_fn_config_makefile dlls/fltmgr.sys enable_fltmgr_sys
 wine_fn_config_makefile dlls/fntcache enable_fntcache
 wine_fn_config_makefile dlls/fontsub enable_fontsub
+wine_fn_config_makefile dlls/ftd2xx enable_ftd2xx
 wine_fn_config_makefile dlls/fusion enable_fusion
 wine_fn_config_makefile dlls/fusion/tests enable_tests
 wine_fn_config_makefile dlls/fwpuclnt enable_fwpuclnt
@@ -24568,5 +24569,3 @@ IFS="$ac_save_IFS"
 printf '%s\n' "
 $as_me: Finished.  Do '${MAKE-make}' to compile Wine.
 " >&6
-
-
